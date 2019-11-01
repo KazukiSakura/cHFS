@@ -38,7 +38,7 @@ $ make
 ## Usage
 ```console
 $ ./chfs -h
-$ ./chfs -f sample.csv -o output.json -c 24.0 -r 0.1
+$ ./chfs -f sample.csv -o output.csv -c 24.0 -r 0.1
 ```
 
 ### Input file (-f)
