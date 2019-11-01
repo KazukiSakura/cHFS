@@ -61,17 +61,20 @@ $ ./chfs -f sample.csv -o output.csv -c 24.0 -r 0.1
 - Option format: real value
 	- cycle period in which single onset should be included
 	- E.g. `24.0` is specfied if input actogram is expected by the biological knowledge to show circadian rhythm
+- Default value: `24.0`
 
 ### Measurement resolution (-r)
 - Option format: real value
 	- unit time in input file
 	- E.g. `0.1` is specfied if input shows activities per 6 minutes (0.1 hours)
+- Default value: `0.1`
 
 ### Penalty weight (-w)
 - Option format: real value
 	- ratio of penalty in the score of regression analysis
 		- When it is too large, the number of the detected onsets should be close to the number of cycles in the input actogram, but the onsets might be scattered
 		- When it is too small, the detected onsets should be alined, but the number of the onsets might be smaller than the number of cycles
+- Default value: `1.0`
 
 ### Verbose mode (-v)
 - Option format: integer value between 1 and 5
